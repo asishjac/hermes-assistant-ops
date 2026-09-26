@@ -1,0 +1,13 @@
+# Ignore local environment keys
+.env
+*.tokens
+
+# Ignore temporary runtime files
+/tmp/
+*.log
+*.tmp
+
+# Ignore local Hermes background states
+.config/hermes/db/
+.config/hermes/sessions/
+.config/hermes/gateway.log
